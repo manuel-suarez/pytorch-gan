@@ -25,7 +25,7 @@ random.seed(manualSeed)
 torch.manual_seed(manualSeed)
 
 # Root directory for dataset
-dataroot = "data/celeba"
+dataroot = "/home/est_posgrado_manuel.suarez/data/celeba"
 
 # Number of workers for dataloader
 workers = 2
