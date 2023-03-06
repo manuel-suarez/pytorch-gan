@@ -86,3 +86,4 @@ plt.imshow(np.transpose(vutils.make_grid(real_batch[0].to(device)[:64], padding=
 plt.savefig("figura1.png")
 plt.close()
 
+print("Done!")
